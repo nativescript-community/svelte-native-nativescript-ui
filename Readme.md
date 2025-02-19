@@ -2,7 +2,7 @@
 
 Provides support for using [NativeScript UI](https://docs.nativescript.org/ui/overview#nativescript-ui-overview) in [Svelte Native](https://svelte-native.technology) Applications
 
-![example-app](https://raw.githubusercontent.com/halfnelson/svelte-native-nativescript-ui/master/svelte-native-nativescript-ui.gif)
+![example-app](https://raw.githubusercontent.com/nativescript-community/svelte-native-nativescript-ui/master/svelte-native-nativescript-ui.gif)
 
 ## Usage
 
@@ -23,13 +23,13 @@ In your project's `app.ts` file, add:
 
 ```js
 //import the components you are using
-import RadListViewElement from "svelte-native-nativescript-ui/listview"
-import RadSideDrawerElement from "svelte-native-nativescript-ui/sidedrawer"
-import RadCalendarElement from "svelte-native-nativescript-ui/calendar"
-import Charts from "svelte-native-nativescript-ui/chart"
-import RadDataFrom from "svelte-native-nativescript-ui/dataform"
-import Gauges from "svelte-native-nativescript-ui/gauge"
-import AutoCompleteElement from "svelte-native-nativescript-ui/autocomplete"
+import RadListViewElement from "@nativesctipt-community/svelte-native-nativescript-ui/listview"
+import RadSideDrawerElement from "@nativesctipt-community/svelte-native-nativescript-ui/sidedrawer"
+import RadCalendarElement from "@nativesctipt-community/svelte-native-nativescript-ui/calendar"
+import Charts from "@nativesctipt-community/svelte-native-nativescript-ui/chart"
+import RadDataFrom from "@nativesctipt-community/svelte-native-nativescript-ui/dataform"
+import Gauges from "@nativesctipt-community/svelte-native-nativescript-ui/gauge"
+import AutoCompleteElement from "@nativesctipt-community/svelte-native-nativescript-ui/autocomplete"
 
 //register them with svelte-native so they can be used in svelte components
 RadListViewElement.register();

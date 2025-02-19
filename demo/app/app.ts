@@ -1,12 +1,12 @@
 
 import { svelteNativeNoFrame, DomTraceCategory } from "svelte-native";
-import RadListViewElement from "svelte-native-nativescript-ui/listview"
-import RadSideDrawerElement from "svelte-native-nativescript-ui/sidedrawer"
-import RadCalendarElement from "svelte-native-nativescript-ui/calendar"
-import Charts from "svelte-native-nativescript-ui/chart"
-import RadDataFrom from "svelte-native-nativescript-ui/dataform"
-import Gauges from "svelte-native-nativescript-ui/gauge"
-import AutoCompleteElement from "svelte-native-nativescript-ui/autocomplete"
+import RadListViewElement from "@nativesctipt-community/svelte-native-nativescript-ui/listview"
+import RadSideDrawerElement from "@nativesctipt-community/svelte-native-nativescript-ui/sidedrawer"
+import RadCalendarElement from "@nativesctipt-community/svelte-native-nativescript-ui/calendar"
+import Charts from "@nativesctipt-community/svelte-native-nativescript-ui/chart"
+import RadDataFrom from "@nativesctipt-community/svelte-native-nativescript-ui/dataform"
+import Gauges from "@nativesctipt-community/svelte-native-nativescript-ui/gauge"
+import AutoCompleteElement from "@nativesctipt-community/svelte-native-nativescript-ui/autocomplete"
 
 RadListViewElement.register();
 RadSideDrawerElement.register();
